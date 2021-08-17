@@ -12,6 +12,6 @@ object MainMacro {
 
       val tpe = TypeRepr.of[U]
 
-      '{${Expr(tpe.toString)}}
+      Expr(tpe.toString)
   }
 }
